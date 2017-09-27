@@ -7,4 +7,5 @@
 subdirs(gtest)
 subdirs(example_pkg)
 subdirs(readtopic)
+subdirs(turtlesim)
 subdirs(writetopic)
