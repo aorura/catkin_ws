@@ -48,3 +48,15 @@
 /home/ubuntu/catkin_ws/build/readtopic/CMakeFiles/install/local.dir
 /home/ubuntu/catkin_ws/build/readtopic/CMakeFiles/test.dir
 /home/ubuntu/catkin_ws/build/readtopic/CMakeFiles/edit_cache.dir
+/home/ubuntu/catkin_ws/build/writetopic/CMakeFiles/install.dir
+/home/ubuntu/catkin_ws/build/writetopic/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir
+/home/ubuntu/catkin_ws/build/writetopic/CMakeFiles/geometry_msgs_generate_messages_eus.dir
+/home/ubuntu/catkin_ws/build/writetopic/CMakeFiles/geometry_msgs_generate_messages_lisp.dir
+/home/ubuntu/catkin_ws/build/writetopic/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/catkin_ws/build/writetopic/CMakeFiles/geometry_msgs_generate_messages_cpp.dir
+/home/ubuntu/catkin_ws/build/writetopic/CMakeFiles/geometry_msgs_generate_messages_py.dir
+/home/ubuntu/catkin_ws/build/writetopic/CMakeFiles/test.dir
+/home/ubuntu/catkin_ws/build/writetopic/CMakeFiles/list_install_components.dir
+/home/ubuntu/catkin_ws/build/writetopic/CMakeFiles/install/strip.dir
+/home/ubuntu/catkin_ws/build/writetopic/CMakeFiles/install/local.dir
+/home/ubuntu/catkin_ws/build/writetopic/CMakeFiles/edit_cache.dir

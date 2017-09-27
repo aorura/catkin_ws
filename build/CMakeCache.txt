@@ -258,6 +258,9 @@ example_pkg_BINARY_DIR:STATIC=/home/ubuntu/catkin_ws/build/example_pkg
 //Value Computed by CMake
 example_pkg_SOURCE_DIR:STATIC=/home/ubuntu/catkin_ws/src/example_pkg
 
+//The directory containing a CMake configuration file for geometry_msgs.
+geometry_msgs_DIR:PATH=/opt/ros/kinetic/share/geometry_msgs/cmake
+
 //Value Computed by CMake
 gtest_BINARY_DIR:STATIC=/home/ubuntu/catkin_ws/build/gtest
 
@@ -318,6 +321,12 @@ rostime_DIR:PATH=/opt/ros/kinetic/share/rostime/cmake
 
 //The directory containing a CMake configuration file for std_msgs.
 std_msgs_DIR:PATH=/opt/ros/kinetic/share/std_msgs/cmake
+
+//Value Computed by CMake
+writetopic_BINARY_DIR:STATIC=/home/ubuntu/catkin_ws/build/writetopic
+
+//Value Computed by CMake
+writetopic_SOURCE_DIR:STATIC=/home/ubuntu/catkin_ws/src/writetopic
 
 //The directory containing a CMake configuration file for xmlrpcpp.
 xmlrpcpp_DIR:PATH=/opt/ros/kinetic/share/xmlrpcpp/cmake
@@ -424,7 +433,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=4
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=5
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
