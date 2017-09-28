@@ -30,15 +30,21 @@ def callback(data):
 		prevX = data.x
 		prevY = data.y
 
-		led_msg = Empty()
 		if not rospy.is_shutdown():
-			led_publisher.publish(led_msg)
-			rospy.spin()
+			rospy.loginfo("while")
+			led_msg = Empty()
+			if (led_publisher is not None):
+				led_publisher.publish(led_msg)
+			else:
+				rospy.loginfo("pub none");
+
+			#rospy.spin()
 
 def readtopic():
+	global led_publisher
 	rospy.init_node("turtlesim_listener", anonymous=True)
 	rospy.Subscriber("/turtlesim1/turtle1/pose", Pose, callback)
-	led_publisher = rospy.Publisher('/toggle_led', Empty, queue_size=10)
+	led_publisher = rospy.Publisher('/toggle_led', Empty, queue_size=1)
 
 	rospy.spin()
 

@@ -117,9 +117,13 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/ubuntu/catkin_ws/build/gtest/cmake_install.cmake")
+  include("/home/ubuntu/catkin_ws/build/camera_umd/camera_umd/cmake_install.cmake")
   include("/home/ubuntu/catkin_ws/build/example_pkg/cmake_install.cmake")
   include("/home/ubuntu/catkin_ws/build/readtopic/cmake_install.cmake")
+  include("/home/ubuntu/catkin_ws/build/camera_umd/jpeg_streamer/cmake_install.cmake")
+  include("/home/ubuntu/catkin_ws/build/openni_launch/cmake_install.cmake")
   include("/home/ubuntu/catkin_ws/build/turtlesim/cmake_install.cmake")
+  include("/home/ubuntu/catkin_ws/build/camera_umd/uvc_camera/cmake_install.cmake")
   include("/home/ubuntu/catkin_ws/build/writetopic/cmake_install.cmake")
   include("/home/ubuntu/catkin_ws/build/writetopic2/cmake_install.cmake")
 
