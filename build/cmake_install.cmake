@@ -121,6 +121,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/ubuntu/catkin_ws/build/readtopic/cmake_install.cmake")
   include("/home/ubuntu/catkin_ws/build/turtlesim/cmake_install.cmake")
   include("/home/ubuntu/catkin_ws/build/writetopic/cmake_install.cmake")
+  include("/home/ubuntu/catkin_ws/build/writetopic2/cmake_install.cmake")
 
 endif()
 

@@ -1,0 +1,136 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+DEFAULT_BG_B	./src/turtle_frame.cpp	40;"	d	file:
+DEFAULT_BG_G	./src/turtle_frame.cpp	39;"	d	file:
+DEFAULT_BG_R	./src/turtle_frame.cpp	38;"	d	file:
+DEFAULT_PEN_B	./src/turtle.cpp	37;"	d	file:
+DEFAULT_PEN_G	./src/turtle.cpp	36;"	d	file:
+DEFAULT_PEN_R	./src/turtle.cpp	35;"	d	file:
+FORWARD	./tutorials/draw_square.cpp	/^  FORWARD,$/;"	e	enum:State	file:
+KEYCODE_D	./tutorials/teleop_turtle_key.cpp	10;"	d	file:
+KEYCODE_L	./tutorials/teleop_turtle_key.cpp	8;"	d	file:
+KEYCODE_Q	./tutorials/teleop_turtle_key.cpp	11;"	d	file:
+KEYCODE_R	./tutorials/teleop_turtle_key.cpp	7;"	d	file:
+KEYCODE_U	./tutorials/teleop_turtle_key.cpp	9;"	d	file:
+M_Turtle	./include/turtlesim/turtle_frame.h	/^  typedef std::map<std::string, TurtlePtr> M_Turtle;$/;"	t	class:turtlesim::TurtleFrame
+Mimic	./tutorials/mimic.cpp	/^Mimic::Mimic()$/;"	f	class:Mimic
+Mimic	./tutorials/mimic.cpp	/^class Mimic$/;"	c	file:
+PI	./include/turtlesim/turtle.h	51;"	d
+PI	./tutorials/draw_square.cpp	22;"	d	file:
+STOP_FORWARD	./tutorials/draw_square.cpp	/^  STOP_FORWARD,$/;"	e	enum:State	file:
+STOP_TURN	./tutorials/draw_square.cpp	/^  STOP_TURN,$/;"	e	enum:State	file:
+State	./tutorials/draw_square.cpp	/^enum State$/;"	g	file:
+TURN	./tutorials/draw_square.cpp	/^  TURN,$/;"	e	enum:State	file:
+TURTLESIM_TURTLE_H	./include/turtlesim/turtle.h	31;"	d
+TeleopTurtle	./tutorials/teleop_turtle_key.cpp	/^TeleopTurtle::TeleopTurtle():$/;"	f	class:TeleopTurtle
+TeleopTurtle	./tutorials/teleop_turtle_key.cpp	/^class TeleopTurtle$/;"	c	file:
+TeleportRequest	./include/turtlesim/turtle.h	/^    TeleportRequest(float x, float y, qreal _theta, qreal _linear, bool _relative)$/;"	f	struct:turtlesim::Turtle::TeleportRequest
+TeleportRequest	./include/turtlesim/turtle.h	/^  struct TeleportRequest$/;"	s	class:turtlesim::Turtle
+Turtle	./include/turtlesim/turtle.h	/^class Turtle$/;"	c	namespace:turtlesim
+Turtle	./src/turtle.cpp	/^Turtle::Turtle(const ros::NodeHandle& nh, const QImage& turtle_image, const QPointF& pos, float orient)$/;"	f	class:turtlesim::Turtle
+TurtleApp	./src/turtlesim.cpp	/^  TurtleApp(int& argc, char** argv)$/;"	f	class:TurtleApp
+TurtleApp	./src/turtlesim.cpp	/^class TurtleApp : public QApplication$/;"	c	file:
+TurtleFrame	./include/turtlesim/turtle_frame.h	/^class TurtleFrame : public QFrame$/;"	c	namespace:turtlesim
+TurtleFrame	./src/turtle_frame.cpp	/^TurtleFrame::TurtleFrame(QWidget* parent, Qt::WindowFlags f)$/;"	f	class:turtlesim::TurtleFrame
+TurtlePtr	./include/turtlesim/turtle.h	/^typedef boost::shared_ptr<Turtle> TurtlePtr;$/;"	t	namespace:turtlesim
+V_TeleportRequest	./include/turtlesim/turtle.h	/^  typedef std::vector<TeleportRequest> V_TeleportRequest;$/;"	t	class:turtlesim::Turtle
+a_scale_	./tutorials/teleop_turtle_key.cpp	/^  double linear_, angular_, l_scale_, a_scale_;$/;"	m	class:TeleopTurtle	file:
+ang_vel_	./include/turtlesim/turtle.h	/^  qreal ang_vel_;$/;"	m	class:turtlesim::Turtle
+angular_	./tutorials/teleop_turtle_key.cpp	/^  double linear_, angular_, l_scale_, a_scale_;$/;"	m	class:TeleopTurtle	file:
+clear	./src/turtle_frame.cpp	/^void TurtleFrame::clear()$/;"	f	class:turtlesim::TurtleFrame
+clearCallback	./src/turtle_frame.cpp	/^bool TurtleFrame::clearCallback(std_srvs::Empty::Request&, std_srvs::Empty::Response&)$/;"	f	class:turtlesim::TurtleFrame
+clear_srv_	./include/turtlesim/turtle_frame.h	/^  ros::ServiceServer clear_srv_;$/;"	m	class:turtlesim::TurtleFrame
+color_pub_	./include/turtlesim/turtle.h	/^  ros::Publisher color_pub_;$/;"	m	class:turtlesim::Turtle
+commandTurtle	./tutorials/draw_square.cpp	/^void commandTurtle(ros::Publisher twist_pub, float linear, float angular)$/;"	f
+cooked	./tutorials/teleop_turtle_key.cpp	/^struct termios cooked, raw;$/;"	v	typeref:struct:termios
+exec	./src/turtlesim.cpp	/^  int exec()$/;"	f	class:TurtleApp
+forward	./tutorials/draw_square.cpp	/^void forward(ros::Publisher twist_pub)$/;"	f
+frame_count_	./include/turtlesim/turtle_frame.h	/^  uint64_t frame_count_;$/;"	m	class:turtlesim::TurtleFrame
+g_first_goal_set	./tutorials/draw_square.cpp	/^bool g_first_goal_set = false;$/;"	v
+g_goal	./tutorials/draw_square.cpp	/^turtlesim::Pose g_goal;$/;"	v
+g_last_state	./tutorials/draw_square.cpp	/^State g_last_state = FORWARD;$/;"	v
+g_pose	./tutorials/draw_square.cpp	/^turtlesim::PoseConstPtr g_pose;$/;"	v
+g_state	./tutorials/draw_square.cpp	/^State g_state = FORWARD;$/;"	v
+hasReachedGoal	./tutorials/draw_square.cpp	/^bool hasReachedGoal()$/;"	f
+hasStopped	./tutorials/draw_square.cpp	/^bool hasStopped()$/;"	f
+hasTurtle	./src/turtle_frame.cpp	/^bool TurtleFrame::hasTurtle(const std::string& name)$/;"	f	class:turtlesim::TurtleFrame
+height_in_meters_	./include/turtlesim/turtle_frame.h	/^  float height_in_meters_;$/;"	m	class:turtlesim::TurtleFrame
+id_counter_	./include/turtlesim/turtle_frame.h	/^  uint32_t id_counter_;$/;"	m	class:turtlesim::TurtleFrame
+keyLoop	./tutorials/teleop_turtle_key.cpp	/^void TeleopTurtle::keyLoop()$/;"	f	class:TeleopTurtle
+kfd	./tutorials/teleop_turtle_key.cpp	/^int kfd = 0;$/;"	v
+killCallback	./src/turtle_frame.cpp	/^bool TurtleFrame::killCallback(turtlesim::Kill::Request& req, turtlesim::Kill::Response&)$/;"	f	class:turtlesim::TurtleFrame
+kill_srv_	./include/turtlesim/turtle_frame.h	/^  ros::ServiceServer kill_srv_;$/;"	m	class:turtlesim::TurtleFrame
+l_scale_	./tutorials/teleop_turtle_key.cpp	/^  double linear_, angular_, l_scale_, a_scale_;$/;"	m	class:TeleopTurtle	file:
+last_command_time_	./include/turtlesim/turtle.h	/^  ros::WallTime last_command_time_;$/;"	m	class:turtlesim::Turtle
+last_turtle_update_	./include/turtlesim/turtle_frame.h	/^  ros::WallTime last_turtle_update_;$/;"	m	class:turtlesim::TurtleFrame
+lin_vel_	./include/turtlesim/turtle.h	/^  qreal lin_vel_;$/;"	m	class:turtlesim::Turtle
+linear	./include/turtlesim/turtle.h	/^    qreal linear;$/;"	m	struct:turtlesim::Turtle::TeleportRequest
+linear_	./tutorials/teleop_turtle_key.cpp	/^  double linear_, angular_, l_scale_, a_scale_;$/;"	m	class:TeleopTurtle	file:
+main	./src/turtlesim.cpp	/^int main(int argc, char** argv)$/;"	f
+main	./tutorials/draw_square.cpp	/^int main(int argc, char** argv)$/;"	f
+main	./tutorials/mimic.cpp	/^int main(int argc, char** argv)$/;"	f
+main	./tutorials/teleop_turtle_key.cpp	/^int main(int argc, char** argv)$/;"	f
+meter_	./include/turtlesim/turtle.h	/^  float meter_;$/;"	m	class:turtlesim::Turtle
+meter_	./include/turtlesim/turtle_frame.h	/^  float meter_;$/;"	m	class:turtlesim::TurtleFrame
+nh_	./include/turtlesim/turtle.h	/^  ros::NodeHandle nh_;$/;"	m	class:turtlesim::Turtle
+nh_	./include/turtlesim/turtle_frame.h	/^  ros::NodeHandle nh_;$/;"	m	class:turtlesim::TurtleFrame
+nh_	./src/turtlesim.cpp	/^  ros::NodeHandlePtr nh_;$/;"	m	class:TurtleApp	file:
+nh_	./tutorials/teleop_turtle_key.cpp	/^  ros::NodeHandle nh_;$/;"	m	class:TeleopTurtle	file:
+onUpdate	./src/turtle_frame.cpp	/^void TurtleFrame::onUpdate()$/;"	f	class:turtlesim::TurtleFrame
+orient_	./include/turtlesim/turtle.h	/^  qreal orient_;$/;"	m	class:turtlesim::Turtle
+paint	./src/turtle.cpp	/^void Turtle::paint(QPainter& painter)$/;"	f	class:turtlesim::Turtle
+paintEvent	./src/turtle_frame.cpp	/^void TurtleFrame::paintEvent(QPaintEvent*)$/;"	f	class:turtlesim::TurtleFrame
+path_image_	./include/turtlesim/turtle_frame.h	/^  QImage path_image_;$/;"	m	class:turtlesim::TurtleFrame
+path_painter_	./include/turtlesim/turtle_frame.h	/^  QPainter path_painter_;$/;"	m	class:turtlesim::TurtleFrame
+pen_	./include/turtlesim/turtle.h	/^  QPen pen_;$/;"	m	class:turtlesim::Turtle
+pen_on_	./include/turtlesim/turtle.h	/^  bool pen_on_;$/;"	m	class:turtlesim::Turtle
+pos	./include/turtlesim/turtle.h	/^    QPointF pos;$/;"	m	struct:turtlesim::Turtle::TeleportRequest
+pos_	./include/turtlesim/turtle.h	/^  QPointF pos_;$/;"	m	class:turtlesim::Turtle
+poseCallback	./tutorials/draw_square.cpp	/^void poseCallback(const turtlesim::PoseConstPtr& pose)$/;"	f
+poseCallback	./tutorials/mimic.cpp	/^void Mimic::poseCallback(const turtlesim::PoseConstPtr& pose)$/;"	f	class:Mimic
+pose_pub_	./include/turtlesim/turtle.h	/^  ros::Publisher pose_pub_;$/;"	m	class:turtlesim::Turtle
+pose_sub_	./tutorials/mimic.cpp	/^  ros::Subscriber pose_sub_;$/;"	m	class:Mimic	file:
+printGoal	./tutorials/draw_square.cpp	/^void printGoal()$/;"	f
+quit	./tutorials/teleop_turtle_key.cpp	/^void quit(int sig)$/;"	f
+raw	./tutorials/teleop_turtle_key.cpp	/^struct termios cooked, raw;$/;"	v	typeref:struct:
+relative	./include/turtlesim/turtle.h	/^    bool relative;$/;"	m	struct:turtlesim::Turtle::TeleportRequest
+resetCallback	./src/turtle_frame.cpp	/^bool TurtleFrame::resetCallback(std_srvs::Empty::Request&, std_srvs::Empty::Response&)$/;"	f	class:turtlesim::TurtleFrame
+reset_srv_	./include/turtlesim/turtle_frame.h	/^  ros::ServiceServer reset_srv_;$/;"	m	class:turtlesim::TurtleFrame
+rotateImage	./src/turtle.cpp	/^void Turtle::rotateImage()$/;"	f	class:turtlesim::Turtle
+setPenCallback	./src/turtle.cpp	/^bool Turtle::setPenCallback(turtlesim::SetPen::Request& req, turtlesim::SetPen::Response&)$/;"	f	class:turtlesim::Turtle
+set_pen_srv_	./include/turtlesim/turtle.h	/^  ros::ServiceServer set_pen_srv_;$/;"	m	class:turtlesim::Turtle
+spawnCallback	./src/turtle_frame.cpp	/^bool TurtleFrame::spawnCallback(turtlesim::Spawn::Request& req, turtlesim::Spawn::Response& res)$/;"	f	class:turtlesim::TurtleFrame
+spawnTurtle	./src/turtle_frame.cpp	/^std::string TurtleFrame::spawnTurtle(const std::string& name, float x, float y, float angle)$/;"	f	class:turtlesim::TurtleFrame
+spawnTurtle	./src/turtle_frame.cpp	/^std::string TurtleFrame::spawnTurtle(const std::string& name, float x, float y, float angle, size_t index)$/;"	f	class:turtlesim::TurtleFrame
+spawn_srv_	./include/turtlesim/turtle_frame.h	/^  ros::ServiceServer spawn_srv_;$/;"	m	class:turtlesim::TurtleFrame
+stopForward	./tutorials/draw_square.cpp	/^void stopForward(ros::Publisher twist_pub)$/;"	f
+stopTurn	./tutorials/draw_square.cpp	/^void stopTurn(ros::Publisher twist_pub)$/;"	f
+teleportAbsoluteCallback	./src/turtle.cpp	/^bool Turtle::teleportAbsoluteCallback(turtlesim::TeleportAbsolute::Request& req, turtlesim::TeleportAbsolute::Response&)$/;"	f	class:turtlesim::Turtle
+teleportRelativeCallback	./src/turtle.cpp	/^bool Turtle::teleportRelativeCallback(turtlesim::TeleportRelative::Request& req, turtlesim::TeleportRelative::Response&)$/;"	f	class:turtlesim::Turtle
+teleport_absolute_srv_	./include/turtlesim/turtle.h	/^  ros::ServiceServer teleport_absolute_srv_;$/;"	m	class:turtlesim::Turtle
+teleport_relative_srv_	./include/turtlesim/turtle.h	/^  ros::ServiceServer teleport_relative_srv_;$/;"	m	class:turtlesim::Turtle
+teleport_requests_	./include/turtlesim/turtle.h	/^  V_TeleportRequest teleport_requests_;$/;"	m	class:turtlesim::Turtle
+theta	./include/turtlesim/turtle.h	/^    qreal theta;$/;"	m	struct:turtlesim::Turtle::TeleportRequest
+timerCallback	./tutorials/draw_square.cpp	/^void timerCallback(const ros::TimerEvent&, ros::Publisher twist_pub)$/;"	f
+turn	./tutorials/draw_square.cpp	/^void turn(ros::Publisher twist_pub)$/;"	f
+turtle_image_	./include/turtlesim/turtle.h	/^  QImage turtle_image_;$/;"	m	class:turtlesim::Turtle
+turtle_images_	./include/turtlesim/turtle_frame.h	/^  QVector<QImage> turtle_images_;$/;"	m	class:turtlesim::TurtleFrame
+turtle_rotated_image_	./include/turtlesim/turtle.h	/^  QImage turtle_rotated_image_;$/;"	m	class:turtlesim::Turtle
+turtles_	./include/turtlesim/turtle_frame.h	/^  M_Turtle turtles_;$/;"	m	class:turtlesim::TurtleFrame
+turtlesim	./include/turtlesim/turtle.h	/^namespace turtlesim$/;"	n
+turtlesim	./include/turtlesim/turtle_frame.h	/^namespace turtlesim$/;"	n
+turtlesim	./src/turtle.cpp	/^namespace turtlesim$/;"	n	file:
+turtlesim	./src/turtle_frame.cpp	/^namespace turtlesim$/;"	n	file:
+twist_pub_	./tutorials/mimic.cpp	/^  ros::Publisher twist_pub_;$/;"	m	class:Mimic	file:
+twist_pub_	./tutorials/teleop_turtle_key.cpp	/^  ros::Publisher twist_pub_;$/;"	m	class:TeleopTurtle	file:
+update	./src/turtle.cpp	/^bool Turtle::update(double dt, QPainter& path_painter, const QImage& path_image, qreal canvas_width, qreal canvas_height)$/;"	f	class:turtlesim::Turtle
+updateTurtles	./src/turtle_frame.cpp	/^void TurtleFrame::updateTurtles()$/;"	f	class:turtlesim::TurtleFrame
+update_timer_	./include/turtlesim/turtle_frame.h	/^  QTimer* update_timer_;$/;"	m	class:turtlesim::TurtleFrame
+velocityCallback	./src/turtle.cpp	/^void Turtle::velocityCallback(const geometry_msgs::Twist::ConstPtr& vel)$/;"	f	class:turtlesim::Turtle
+velocity_sub_	./include/turtlesim/turtle.h	/^  ros::Subscriber velocity_sub_;$/;"	m	class:turtlesim::Turtle
+width_in_meters_	./include/turtlesim/turtle_frame.h	/^  float width_in_meters_;$/;"	m	class:turtlesim::TurtleFrame
+~TurtleFrame	./src/turtle_frame.cpp	/^TurtleFrame::~TurtleFrame()$/;"	f	class:turtlesim::TurtleFrame

@@ -2002,6 +2002,24 @@ writetopic/preinstall:
 .PHONY : writetopic/preinstall
 
 #=============================================================================
+# Directory level rules for directory writetopic2
+
+# Convenience name for "all" pass in the directory.
+writetopic2/all:
+
+.PHONY : writetopic2/all
+
+# Convenience name for "clean" pass in the directory.
+writetopic2/clean:
+
+.PHONY : writetopic2/clean
+
+# Convenience name for "preinstall" pass in the directory.
+writetopic2/preinstall:
+
+.PHONY : writetopic2/preinstall
+
+#=============================================================================
 # Special targets to cleanup operation of make.
 
 # Special rule to run CMake to check the build system integrity.

@@ -3,8 +3,8 @@ import rospy
 from geometry_msgs.msg import Twist
 
 def move():
-	rospy.init_node('publisher_node')
-	velocity_publisher = rospy.Publisher('/turtlesim1/turtle1/cmd_vel', Twist, queue_size=10)
+	rospy.init_node('publisher_node2')
+	velocity_publisher = rospy.Publisher('/turtlesim2/turtle1/cmd_vel', Twist, queue_size=10)
 	vel_msg = Twist()
 
 	speed = input("Input speed: ")

@@ -94,3 +94,10 @@
 /home/ubuntu/catkin_ws/build/writetopic/CMakeFiles/install/local.dir
 /home/ubuntu/catkin_ws/build/writetopic/CMakeFiles/test.dir
 /home/ubuntu/catkin_ws/build/writetopic/CMakeFiles/edit_cache.dir
+/home/ubuntu/catkin_ws/build/writetopic2/CMakeFiles/list_install_components.dir
+/home/ubuntu/catkin_ws/build/writetopic2/CMakeFiles/install.dir
+/home/ubuntu/catkin_ws/build/writetopic2/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/catkin_ws/build/writetopic2/CMakeFiles/install/strip.dir
+/home/ubuntu/catkin_ws/build/writetopic2/CMakeFiles/install/local.dir
+/home/ubuntu/catkin_ws/build/writetopic2/CMakeFiles/test.dir
+/home/ubuntu/catkin_ws/build/writetopic2/CMakeFiles/edit_cache.dir
